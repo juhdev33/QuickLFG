@@ -1,0 +1,9 @@
+## Interface: 20505
+## Title: QuickLFG
+## Notes: Filter Looking For Group listings
+## Author: D
+## Version: 1.0
+## OptionalDeps: Blizzard_GroupFinder_VanillaStyle
+
+filter_expansion.lua
+main.lua
