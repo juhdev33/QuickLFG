@@ -45,7 +45,7 @@ FilterExpansion.expansions = {
         ["Class"] = "Druid"
     },
 
-    ["tank"] = {
+    ["tanker"] = {
         ["Class"] = {"Warrior", "Paladin", "Druid"},
         ["Role"] = "tank"
     },
@@ -56,11 +56,11 @@ FilterExpansion.expansions = {
     ["dps"] = {
         ["Role"] = "dps"
     },
-    ["damage"] = {
+    ["damager"] = {
         ["Role"] = "dps"
     },
 
-    ["sp"] = {
+    ["spriest"] = {
         ["Class"] = "Priest",
         ["Role"] = "dps"
     },
