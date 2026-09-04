@@ -46,9 +46,11 @@ FilterExpansion.expansions = {
     },
 
     ["tank"] = {
+        ["Class"] = {"Warrior", "Paladin", "Druid"},
         ["Role"] = "tank"
     },
-    ["heal"] = {
+    ["healer"] = {
+        ["Class"] = {"Priest", "Shaman", "Druid", "Paladin"},
         ["Role"] = "healer"
     },
     ["dps"] = {
@@ -68,6 +70,10 @@ FilterExpansion.expansions = {
     },    
     ["hpriest"] = {
         ["Class"] = "Priest",
+        ["Role"] = "healer"
+    },
+    ["rshaman"] = {
+        ["Class"] = "Shaman",
         ["Role"] = "healer"
     },
     ["elemental"] = {
