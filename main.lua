@@ -443,6 +443,7 @@ loader:SetScript("OnEvent", function(self, event, arg1)
 		if arg1 == ADDON_NAME or arg1 == VANILLA_LFG_ADDON then
 			if IsVanillaLFGLoaded() then
 				TryInitBrowseFilter()
+				loader:UnregisterEvent("ADDON_LOADED")
 			end
 		end
 	elseif event == "GLOBAL_MOUSE_DOWN" then

@@ -7,3 +7,5 @@
 
 filter_expansion.lua
 main.lua
+copy_frame.lua
+menu_extensions.lua
